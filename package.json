@@ -8,9 +8,18 @@
     "export": "next export"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.7",
+    "contentful": "^9.2.15",
     "cypress": "^10.0.3",
+    "feather-icons": "^4.29.0",
     "next": "^12.1.5",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "react-feather": "^2.0.10"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4"
   }
 }
