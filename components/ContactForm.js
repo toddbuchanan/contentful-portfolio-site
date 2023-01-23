@@ -6,7 +6,7 @@ export default function ContactForm() {
         <p>Have a project or just want to dicuss an idea? Fill out the form to get started.</p>
       </div>
       <div className="flex-grow">
-      <form name="contact" action="/success" method="POST" data-netlify="true">
+      <form name="contact" action="/success" method="POST" netlify>
         <div className="p-6">
           <input type="hidden" name="form-name" value="contact" />
           <div className="">

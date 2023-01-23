@@ -6,7 +6,7 @@ import ContactForm from '@components/ContactForm';
 
 export default function Header({ title }) {
   const [isNavExpanded, setIsNavExpanded] = useState(false)
-  let [isOpen, setIsOpen] = useState(true)
+  let [isOpen, setIsOpen] = useState(false)
 
   function closeModal() {
     setIsOpen(false)
