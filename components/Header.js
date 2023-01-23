@@ -2,7 +2,7 @@
 import { Dialog, Transition } from '@headlessui/react'
 import { Fragment, useState } from 'react'
 import Link from 'next/link';
-import ContactForm from './ContactForm';
+import ContactForm from '@components/ContactForm';
 
 export default function Header({ title }) {
   const [isNavExpanded, setIsNavExpanded] = useState(false)
