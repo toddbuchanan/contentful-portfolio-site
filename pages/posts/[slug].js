@@ -1,14 +1,9 @@
-import Head from 'next/head'
-import Link from 'next/link'
+import Link from 'next/link';
 
-import * as contentful from "contentful"
+import * as contentful from "contentful";
 
-import contentfulPosts, { fetchEntries } from '@utils/contentfulPosts'
-
-import Header from '@components/Header'
-import Footer from '@components/Footer'
-import Post from '@components/Post'
-import Layout, { siteTitle } from '@components/layout';
+import Post from '@components/Post';
+import Layout from '@components/Layout';
 
 
 var client = contentful.createClient({

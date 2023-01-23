@@ -1,4 +1,4 @@
-import '@styles/globals.css'
+import '@styles/globals.css';
 
 function Application({ Component, pageProps }) {
   return <div className='flex h-full flex-col'>

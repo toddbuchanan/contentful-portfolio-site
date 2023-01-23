@@ -1,11 +1,7 @@
-import Head from 'next/head'
-import Link from 'next/link'
+import { fetchEntries } from '@utils/contentfulPosts';
 
-import { fetchEntries } from '@utils/contentfulPosts'
-
-import Post from '@components/Post'
-import Footer from '@components/Footer'
-import Layout, { siteTitle } from '@components/layout';
+import Post from '@components/Post';
+import Layout from '@components/Layout';
 
 export default function Home({ posts }) {
   return (
