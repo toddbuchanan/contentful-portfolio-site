@@ -6,12 +6,12 @@ export default function ContactForm() {
         <p>Have a project or just want to dicuss an idea? Fill out the form to get started.</p>
       </div>
       <div className="flex-grow">
-      <form name="contact" action="/success" method="POST" data-netlify="true">
+      <form name="contact" action="/success" method="POST" netlify>
         <div className="p-6">
           <input type="hidden" name="form-name" value="contact" />
           <div className="">
-            <label htmlFor="first-name" className="block text-sm font-medium text-gray-700">First name</label>
-            <input type="text" name="first-name" id="first-name" autocomplete="given-name" className="mt-1 p-2 block w-full rounded-md border border-gray-300 shadow-sm focus:border-amber-500 focus:ring-amber-500 sm:text-sm" />
+            <label htmlFor="full-name" className="block text-sm font-medium text-gray-700">Full Name</label>
+            <input type="text" name="full-name" id="full-name" autocomplete="given-name" className="mt-1 p-2 block w-full rounded-md border border-gray-300 shadow-sm focus:border-amber-500 focus:ring-amber-500 sm:text-sm" />
           </div>
           <div className="mt-6">
             <label htmlFor="email-address" className="block text-sm font-medium text-gray-700">Email</label>
