@@ -45,8 +45,8 @@ export default function Header({ title }) {
               </div>
             </div>
             <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
-              <Link href="posts" className="font-semibold text-gray-900 hover:text-gray-900">Works</Link>
-              <Link href="about" className="font-semibold text-gray-900 hover:text-gray-900">About</Link>
+              <Link href="/work" className="font-semibold text-gray-900 hover:text-gray-900">Work</Link>
+              <Link href="/about" className="font-semibold text-gray-900 hover:text-gray-900">About</Link>
             </div>
             <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end lg:self-end">
               <button type="button" onClick={openModal} className="mt-4 block rounded-lg py-2 px-6 text-sm font-semibold leading-6 bg-[#39393A] text-white hover:bg-[#39393A]/90 self-start cursor-pointer">Contact Me!</button>
@@ -73,7 +73,7 @@ export default function Header({ title }) {
                 <div className="-my-6 divide-y divide-gray-500/10">
                   <div className="space-y-2 py-6">
                     <div className="-mx-3 block rounded-lg py-2 px-3 text-base font-normal leading-7 text-gray-900 hover:bg-gray-400/10">
-                      <Link href="/posts" >Works</Link>
+                      <Link href="/work" >Work</Link>
                     </div>
                     <div className="-mx-3 block rounded-lg py-2 px-3 text-base font-normal leading-7 text-gray-900 hover:bg-gray-400/10">
                       <Link href="/about">About</Link>

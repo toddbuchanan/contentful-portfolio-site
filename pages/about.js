@@ -27,9 +27,12 @@ export default function Home({ posts }) {
             </svg>
           </div>
           <div className='mt-8 lg:mt-0 relative flex flex-col gap-3'>
-            <h1 className="text-2xl font-normal tracking-tight text-gray-[#39393A] sm:text-4xl">
-              I'm a UI designer/developer with over 10+ experience working with businesses to build amazing digital experiences.
+            <h1 className="text-2xl font-medium tracking-tight text-gray-[#39393A] sm:text-4xl">
+              Hi, I'm Todd Buchanan.
             </h1>
+            <p className='font-normal text-base leading-7'>
+              I've been working as a UI developer and designer for the past 10+ years in San Francisco and now I'm currently based in Detroit, Michigan. I love to work on innovative and intuitive user experiences for the web and mobile devices. I'm passionite about UI/UX design, Frontend technologies and helping companies optimize their design and development efforts through design systems.
+            </p>
             <Link href="/work">
               <div className="mt-4 block rounded-lg py-2 px-6 text-base font-semibold leading-6 bg-[#39393A] text-white hover:bg-[#39393A]/90 self-start cursor-pointer">
                 View Work

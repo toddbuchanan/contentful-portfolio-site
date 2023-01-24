@@ -4,6 +4,9 @@ import Post from '@components/Post';
 import Layout from '@components/Layout';
 
 export default function Home({ posts }) {
+  posts.sort((a,b)=>{
+    return new Date(b.publishDate) - new Date(a.publishDate);
+  })
   return (
     <Layout className="container">
       <main>
