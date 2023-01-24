@@ -1,7 +1,7 @@
+import Link from 'next/link';
 import { ArrowUpRight } from 'react-feather';
 
 function Post({ post, tags, index }) {
-  console.log(post)
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-8 lg:gap-12">
       <div className="flex flex-col px-6 pb-6 pt-0 md:p-6 border bg-white border-white border-spacing-4 shadow-lg rounded-tl-xl rounded-tr-xl md:rounded-xl lg:col-span-2">
@@ -29,7 +29,7 @@ function Post({ post, tags, index }) {
             </ul>
           </div>
           <p className='p-4 flex-1 text-sm rounded-lg bg-white'>{post.body}</p>
-          {/* <Link href={`/posts/${post.slug}`}>Read more</Link> */}
+          {/* <Link href={`/work/${post.slug}`}>Read more</Link> */}
         </div>
       </div>
     </div>

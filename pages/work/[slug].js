@@ -26,7 +26,7 @@ export default function FirstPost(props) {
       <main className='mx-auto max-w-7xl'>
         <div className="posts flex flex-col gap-4">
           <Link href="/">
-            <Post key={props.publishDate} heroImage={props.heroImage} publishDate={props.publishDate} title={props.title} slug={props.slug} />
+            <Post key={props.slug} post={props} tags={props.tags ?? JSON.stringify(props.tags)} index={props.index}/>
           </Link>
         </div>
       </main>

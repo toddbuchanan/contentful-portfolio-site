@@ -12,7 +12,7 @@ export default function Home({ posts }) {
       <main>
         <div className="mx-auto max-w-7xl py-12 px-6 grid grid-cols-1 gap-y-16">
           {posts.map((p, index) => {
-            return <div key={p.slug}><Post post={p} tags={p.tags ?? JSON.stringify(p.tags)} index={index}/></div>
+            return <Post key={p.slug} post={p} tags={p.tags ?? JSON.stringify(p.tags)} index={index}/>
           })}
         </div>
       </main>
