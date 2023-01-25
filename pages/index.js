@@ -27,8 +27,8 @@ export default function Home({ posts }) {
             </svg>
           </div>
           <div className='mt-8 lg:mt-0 relative flex flex-col gap-3'>
-            <h1 className="text-2xl font-normal tracking-tight text-gray-[#39393A] sm:text-4xl">
-              I'm a UI designer/developer with over 10+ experience working with businesses to build amazing digital experiences.
+            <h1 className="text-3xl font-normal tracking-tight text-gray-[#39393A] sm:text-4xl">
+              I'm a UI developer & designer with over 10 years experience working with businesses to build amazing digital experiences across devices.
             </h1>
             <Link href="/work">
               <div className="mt-4 block rounded-lg py-2 px-6 text-base font-semibold leading-6 bg-[#39393A] text-white hover:bg-[#39393A]/90 self-start cursor-pointer">
