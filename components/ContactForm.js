@@ -51,11 +51,11 @@ export default function ContactForm() {
           </p>
           <div className="">
             <label htmlFor="full-name" className="block text-sm font-medium text-gray-700">Full Name</label>
-            <input type="text" name="full-name" id="full-name" autocomplete="given-name" className="mt-1 p-2 block w-full rounded-md border border-gray-300 shadow-sm focus:border-amber-500 focus:ring-amber-500 sm:text-sm" onChange={handleChange}/>
+            <input type="text" name="full-name" id="full-name" autoComplete="given-name" className="mt-1 p-2 block w-full rounded-md border border-gray-300 shadow-sm focus:border-amber-500 focus:ring-amber-500 sm:text-sm" onChange={handleChange}/>
           </div>
           <div className="mt-6">
             <label htmlFor="email-address" className="block text-sm font-medium text-gray-700">Email</label>
-            <input type="text" name="email-address" id="email-address" autocomplete="email" className="mt-1 p-2 block w-full rounded-md border border-gray-300 shadow-sm focus:border-amber-500 focus:ring-amber-500 sm:text-sm" onChange={handleChange}/>
+            <input type="text" name="email-address" id="email-address" autoComplete="email" className="mt-1 p-2 block w-full rounded-md border border-gray-300 shadow-sm focus:border-amber-500 focus:ring-amber-500 sm:text-sm" onChange={handleChange}/>
           </div>
           <div className=" mt-6">
             <label htmlFor="form-message" className="block text-sm font-medium text-gray-700">Message</label>
